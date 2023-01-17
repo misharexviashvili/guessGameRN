@@ -20,7 +20,7 @@ function StartGameScreen({ onPickNumber }) {
       );
       return;
     }
-    onPickNumber(enteredNumber);
+    onPickNumber(chosenNumber);
   }
   return (
     <View style={styles.inputContainer}>
