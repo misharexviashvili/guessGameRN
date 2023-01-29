@@ -102,6 +102,7 @@ const styles = StyleSheet.create({
     // I changed paddings, so they differ from one on lecture
     paddingVertical: 40,
     paddingHorizontal: 24,
+    alignItems: "center",
   },
   instructionText: {
     marginBottom: 12,

@@ -6,7 +6,7 @@ export default Title;
 
 const styles = StyleSheet.create({
   title: {
-    fontFamily:"Open-sans-bold",
+    fontFamily: "Open-sans-bold",
     fontSize: 24,
     // fontWeight: "bold",
     color: "white",
@@ -14,5 +14,7 @@ const styles = StyleSheet.create({
     borderWidth: 2,
     borderColor: "white",
     padding: 12,
+    maxWidth: "80%",
+    width: 300,
   },
 });
